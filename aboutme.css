@@ -1,0 +1,79 @@
+body{
+    background-color: #f3e6ca;
+    color: rgb(5, 5, 6);
+    font-family: 'Fredoka One', cursive;  
+}
+header{
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+.myname{
+    font-size: 1.6em;
+}
+.callme{
+    position: relative;
+    padding-left: 70%;
+    font-size: 1em;
+    rotate: -6deg;
+    transform: translatey(-22px);
+    color: rgb(123, 68, 86);
+}
+
+article{
+    width: 80%;
+    margin: 5% 10%;
+    align-items: center;
+    text-align: center;
+}
+.imgg{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+}
+
+@media(min-width:900px){
+    .myname{
+        font-size:2.6em;
+    }
+    .callme{
+        font-size: 2em;
+    }
+    
+article{
+    font-size: 2em;
+}
+.imgg{
+    margin-top: 5%;
+}      
+footer{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.8em;
+}
+}

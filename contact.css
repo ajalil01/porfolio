@@ -1,0 +1,113 @@
+body{
+    background-color: #f3e6ca;
+    font-family: "Gill Sans", sans-serif;
+    color: 30475E;
+    padding: 20% 0%;
+}
+img{
+    width: 40%;
+    margin: 10% 30%;
+}
+h1{
+    text-align: center;
+    font-size: 1em;
+    width: 60%;
+    margin:0% 20%;
+}
+p{
+    text-align: center;
+    font-size: 1em;
+    width: 80%;
+    margin:10%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% 10%;
+    font-size: 2rem;
+    text-align: center;
+}
+.fb{
+    color: black;
+    transition: 0.3s;
+}
+.ig{
+    color: black;
+    transition: 0.3s;
+}
+.wh{
+    color: black;
+    transition: 0.3s;
+}
+.tg{
+    color: black;
+    transition: 0.3s;
+}
+
+.fb:hover{
+    color: #3b5998;
+    transform: scale(1.2); 
+}
+
+.ig:hover{
+    color: #e4405f;
+    transform: scale(1.2); 
+}
+
+.wh:hover{
+    color: #25D366;
+    transform: scale(1.2); 
+}
+
+.tg:hover{
+    color: #0088cc;
+    transform: scale(1.2); 
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+}
+
+@media(min-width:420px){
+    body{
+        padding: 0% 0%;
+    }   
+}
+@media(min-width:1000px){
+    img{
+        width: 20%;
+        margin: 10% 40%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 2em;
+    }
+    .icons{
+       font-size: 3rem;
+    }   
+    
+footer{
+    font-size: 1.8em;
+}
+}
