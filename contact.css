@@ -87,6 +87,21 @@ a{
     border: none;
 }
 
+.home:hover{
+    text-decoration: underline;
+
+}
+.aboutme:hover{
+    text-decoration: underline;
+
+}
+.skills:hover{
+    text-decoration: underline;
+}
+.index:hover{
+    text-decoration: underline;
+
+}
 @media(min-width:420px){
     body{
         padding: 0% 0%;

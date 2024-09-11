@@ -52,6 +52,22 @@ footer{
     justify-content: space-between;
 }
 
+.home:hover{
+    text-decoration: underline;
+
+}
+.aboutme:hover{
+    text-decoration: underline;
+
+}
+.contact:hover{
+    text-decoration: underline;
+}
+.index:hover{
+    text-decoration: underline;
+
+}
+
 
 @media(min-width:1000px){
     header{
