@@ -1,7 +1,7 @@
 body{
-    background-color: #f3e6ca;
-    color: rgb(5, 5, 6);
     font-family: 'Fredoka One', cursive;  
+    background-color: #003049;
+    color:#f5f5f5;
 }
 header{
     height: 100px;
@@ -17,7 +17,7 @@ header{
     font-size: 1em;
     rotate: -6deg;
     transform: translatey(-22px);
-    color: rgb(123, 68, 86);
+    color: rgb(182, 67, 38);
 }
 
 article{
@@ -55,7 +55,21 @@ a{
     background: none;
     border: none;
 }
+.index:hover{
+    text-decoration: underline;
 
+}
+.home:hover{
+    text-decoration: underline;
+
+}
+.skills:hover{
+    text-decoration: underline;
+}
+.contact:hover{
+    text-decoration: underline;
+
+}
 @media(min-width:900px){
     .myname{
         font-size:2.6em;
