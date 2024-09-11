@@ -111,3 +111,48 @@ footer{
     font-size: 1.8em;
 }
 }
+
+@media(max-width:420px){
+    footer{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.8em;
+    }
+    .index{
+        border: #f5f5f5a4 solid 1px;
+        padding: 2px;
+        width: 25%;
+        height: 30px;
+        background-color: #fcbf49;
+        color: black;
+    }
+    .home{
+        border: #f5f5f5a4 solid 1px;
+        padding: 2px;
+        width: 25%;
+        height: 30px;
+        background-color: #fcbf49;
+        color: black;
+    }
+    
+    .skills{
+        border: #f5f5f5a4 solid 1px;
+        padding: 2px;
+        width: 25%;
+        height: 30px;
+        background-color: #fcbf49;
+        color: black;
+    }
+    
+    .aboutme{
+        border: #f5f5f5a4 solid 1px;
+        padding: 2px;
+        width: 25%;
+        height: 30px;
+        background-color: #fcbf49;
+        color: black;
+    }
+}
