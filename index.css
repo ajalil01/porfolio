@@ -233,22 +233,24 @@ a{
     .home{
         border: #f5f5f5a4 solid 1px;
         padding: 6px;
-        
+        background-color: #fcbf49;
     }
     .about-me{
         border: #f5f5f5a4 solid 1px;
         padding: 6px;
+        background-color: #fcbf49;
     }
     
     .skills{
         border: #f5f5f5a4 solid 1px;
         padding: 6px;
+        background-color: #fcbf49;
     }
     
     .contact{
         border: #f5f5f5a4 solid 1px;
         padding: 6px;
-
+        background-color: #fcbf49;
     }
     
 
